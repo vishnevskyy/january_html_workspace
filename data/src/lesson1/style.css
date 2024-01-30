@@ -26,7 +26,7 @@
     color: lightcyan;
     position: absolute;
     bottom: 0;
-    font-family: "Arial Black";
+    font-family: "Arial Black", sans-serif;
     border-radius: 5px;
     width: 200px;
     height: 50px;
