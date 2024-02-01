@@ -62,10 +62,16 @@
     display: flex;
 }
 .left-box{
-    width: 25%;
+    position: sticky;
+    top: 100px;
+    width: 12%;
     height: 100%;
     display: table;
-    padding: 50px 0 0 40px;
+    padding: 50px 80px 0 40px;
+}
+.left-box>div{
+    margin-bottom: 20px;
+    font-family: Arial,sans-serif;
 }
 .mainbox{
     width: 65%;
@@ -86,4 +92,5 @@ body{
 }
 .text-info{
     margin: 10px;
+    font-size: 18px;
 }
