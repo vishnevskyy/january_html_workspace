@@ -21,13 +21,14 @@
     align-content: center;
 }
 
-.logo-pic{
+.logo-pic {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100px;
     height: 100px;
 }
+
 .watermark {
     height: 100%;
     width: 100px;
@@ -37,9 +38,52 @@
     align-items: center;
 }
 
-.search-panel{
-    width: 40%;
+.search-panel {
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logination {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-style {
+    font-family: 'Arial Black', sans-serif;
+    padding: 0 0 0 20px;
+    text-decoration: underline;
+    color: blue
+}
+.container-main{
+    display: flex;
+}
+.left-box{
+    width: 25%;
+    height: 100%;
+    display: table;
+    padding: 50px 0 0 40px;
+}
+.mainbox{
+    width: 65%;
+}
+.short-view-page{
+    width: 300px;
+    border: black 1px solid;
+}
+.svp-header{
+    font-size: 20px;
+    font-family: "Arial Black", sans-serif;
+    margin: 10px 0 0 0;
+    background-color: silver;
+    text-align: center;
+}
+body{
+    font-family: sans-serif;
+}
+.text-info{
+    margin: 10px;
 }
