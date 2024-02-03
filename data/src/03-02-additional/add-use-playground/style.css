@@ -1,3 +1,41 @@
-.use-box{
+.main-header {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 100px 0;
+}
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.use-box {
+    width: 600px;
+    height: 200px;
+    border: 3px darkslategrey solid;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 10px 5px 5px black;
+    margin: 0 20px;
+}
+
+.use-box-header {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: darkslategrey;
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.use-box-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+    text-align: center;
+    width: 60%;
+    margin: 20px 20% 0 20%;
 }
