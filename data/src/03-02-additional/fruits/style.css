@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.main-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fruit-box{
+    width: 200px;
+    height: 300px;
+    border:5px silver solid;
+    box-shadow: inset 10px 5px 5px black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fruit-name{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    margin:10px 0 10px 0;
+}
+.shadow-box{
+    box-shadow: 10px 5px 5px black;
+    width: 210px;
+    height: 310px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    transition: background-color 0.4s;
+}
+.shadow-box:hover{
+    background-color: indianred;
+}
+.footer{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
