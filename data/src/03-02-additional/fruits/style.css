@@ -25,6 +25,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.fruit-box>div>img{
+    height: 150px;
+}
 .fruit-name{
     text-align: center;
     font-family: 'Indie Flower', cursive;

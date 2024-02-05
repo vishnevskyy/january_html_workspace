@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw3_6</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        section a {
+            font-size: 50px;
+            text-decoration: none;
+        }
+
+        section h1 {
+            font-family: 'Protest Guerrilla', sans-serif;
+            letter-spacing: 10px;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+        section p{
+            font-family: 'Protest Guerrilla', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            width: 60vw;
+        }
+
+        #pink {
+            background: hotpink;
+        }
+
+        #yellow {
+            background: yellow;
+        }
+
+        #dodgerblue {
+            background: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+<section id="yellow">
+    <h1>Section Name</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium cupiditate nulla numquam officia
+        possimus ratione, suscipit totam ut. Veniam!</p>
+    <a href="#pink">&#8659;</a>
+</section>
+<section id="pink">
+    <a href="#yellow">&#8657;</a>
+    <h1>Section Name</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto autem corporis eos fugiat id nisi odit quas
+        quis quos saepe!</p>
+    <a href="#dodgerblue">&#8659;</a>
+</section>
+<section id="dodgerblue">
+    <a href="#pink">&#8657;</a>
+    <h1>Section Name</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti officiis recusandae saepe. Architecto cumque,
+        dignissimos doloremque minima mollitia repudiandae voluptatum?</p>
+</section>
+</body>
+</html>
