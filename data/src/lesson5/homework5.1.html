@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 321px;
+            height: 491px;
+            flex-shrink: 0;
+            border: 4px solid #554C4C;
+            background: rgba(217, 217, 217, 0.30);
+        }
+
+        .elipse {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: #554C4C 4px solid;
+            background: white;
+            top: -50px;
+            left: 110px;
+        }
+
+        .header {
+            padding-top: 50px;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 40px;
+            font-weight: 400;
+        }
+
+        .text {
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+        }
+
+        main {
+            margin-left: 20vw;
+            height: 100vh;
+            width: 60vw;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="box">
+        <div class="elipse">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADeklEQVR4nO2ZyWsUQRTGf6ioYMTl4EnBuMUF8RA0agTP7op68SAYvEkQRDBKji540MSYCCIo+gd4MC64oOAYVNAkYIIHTy4YQYyIS9xiS8HX0JRVPd09E5yE+aAYpup9X73X9fpV1QyUUbq4CwTDrOVcgQTDtP0D70CJIigHUmIIyiuSABXALGA5sB7YBRwATgAXgevAE+AV8A14QAmuyK1iVZ3/HUjIfwN0ATeAS5H+3cBGYAUwezgEUmh/UpQDyYei7cylsiIjJhAb5XckD8rlNx9ujpR3JMsRxXkxSojyobHUEBSSWr57fSEpklUzKCSQoXxp02oWJZC0vKHQDLIGsihiMwB8AB4XMRCj9UHaYd/CYgYyDmgFBgs4T2Vtg0CLfCgoECNwJ7IKzcAyYIJaDXAK+F6As0l0bwJj0wYSiq/TSgTawBb71hhYAryWbRP5cTyDbguwA/iRryDkrEAatLQDjsk+qdmTfhdnfoxz84DfHt0OR9kNdQ3nsBXIfRKgNeYJf1az0SKOSRUfmmN0cx7nQl3zmRrPRV7qGKtWs1EjTk+Mbk+Mrg+hbi8Z8E1kcxBEqfTZCqBafWGaTRTnS4zuF0vXlU52f6j7lQzoF3lSikCmiuNKOzuQKXnSKRfpnyyO8Sk1HolcmyK1asV5FqPbKxvz+1ZSrBLnIRlwMObF9b3s58Q5GaPbJJuzjrEOT5qFBcL4lBpbRb7sGHOV35Uqjb+AOTG6c1VKfzhWJedJs8vyxfiUGvUityWwNSn1TvZHEtgflW2fJ3VttMne+JQax0RuzGO3GvgZ2aS69BuvD5tkE9r/lEYcGmVrfEqNiyLXxdiMArod56c/ctjGFo3Z9t3S8qFOdsan1Lgt8poYm50RZw7owNeg750O+y6PbSAtH9bIxviUGmGZNGcdF8YDLyOOVFibV1xz2Roto+nCkgQnBi/6RJ7pGd9vOXdQDh5KEIjPdr9nrkqNv8gSSPi0qxxj0yI7f6sj7wc9KbnWcUEz3NORnXuag1dVyFmrXeR9Vv8Y4JrGzN9tqEp16nz2VD/O+bA+Yms+N1h/3V0FRlucvRq7kiWQzZG7Sb2e1IJIgObpTad4mAF8lHa77jRmzj2RA6zxKRPOeHL8va6mxUaNtF1zJtmYY7EduKcVeAucjykAxUAlcEFz9WvubUM4XxkMBf4CokqtsLIZl0EAAAAASUVORK5CYII=">
+        </div>
+        <div class="header">Lorem</div>
+        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+    </div>
+    <div class="box">
+        <div class="elipse">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACG0lEQVR4nO2Zu0oDQRSG/zQBL50KivoOVuIFoy+hTdTHMNgKYi3Ezk5RxMKANtppsPH2AEmlJGKVMkgER0b+hWXZ3cxsspkxzg/D7sw5c7LfzpzZ2Szg5OSkq2UAVQDC0lIFkFMBsRlCsFRUQDznDOxTxnd9baXsaEgiKci9BVOp3A0Q0xAi4npSAVGNmaS/cCBwIxIpN7XgcgT9v2rFKW1QEeKrHFSnowPptxFJRcKBQHtEygG/65gdt7cDvgm039kwIo0Q35GYOKMhbQ0bQB5pnwfwzPPZmGuY4/GJfeT5gy5IN58Tq2w/ZX0DwLnCSuWVMwCbPD8xCbLN9h3W5TEP4DNi7vtzqQlgLdDXGMgh29ve1Rj5R9MYyC3bF1iXuaIrf34ZA6mzfUwxvmizkhkD+daML5L8di9AwuLryjqQOusyX1S1yD61JCC6F6oKutfBtNq1CSRLGG9kVEqNEFmbQPxap/9FiK1Em3xwKskkyAH9t0JsBdqKfwHkhf5LIbYcbXJzaTXIEIAvAC0AgyH2Adqkz7DNICu+LXqUvK2+/DyYGCSN0mKCq+ZAkT6FJCDB19FulXcAM5qrUp4+pSQgaWsCwD7fM4RiabLPeFzgXn4MnQbw1sGovgKYigpeSTkvvPdyqWPWLwFMatwA6XvFvkdRTrkewMilVuqDdR0I/2gKxjCuTvNR9Dif/w+I6LDAtLrxjPr92+gHgSf9HtBg0f0AAAAASUVORK5CYII=">
+        </div>
+        <div class="header">Lorem</div>
+        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+    </div>
+    <div class="box">
+        <div class="elipse">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZ0lEQVR4nO2XQU7DMBBFH2egQYijADkCgoodF4ElhD0bbgRIbChIbDhGabpiURkF2cgYO3WaUGyYJ33J8aTRfI1n5IIgCIIgCIIg/FcK4BJ4BOaASkxzYAJUwChk4hiYJZCsitQrMPaZWCSQnOqohW2myKwSylOZj2NWJZBMX503Rp4SSKSvJiQ6nVRH1Xg2d60hsAOcAm+BuGFvgJhZt+Xj/s7W9w0PZ0vi5jv7nv0yImZ/Q0XkU3Yx0qxvrcr44qEkYhLr877qauRGr0cJGBnkaB1EHq11GSlXNbIB3P+yEdXnaDU60c9XufaIW5G7NRjx9cHKPeKOyWZiXTvxsuU5tLfsfZeYsf3FSB1RttQ1+1N3rSqBRAa5/Rb6Tq8y1RTYNM0zzvgf4qE7CY4yq8zUZwLrTnWhmyfFaVYDD7onPo/TT9H03HNLMi/ANplQBMxkZSJkJksTrpmsTRi2tARBEASBVHkHCsaYx+G8MZkAAAAASUVORK5CYII=">
+        </div>
+        <div class="header">Lorem</div>
+        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+    </div>
+</main>
+</body>
+</html>

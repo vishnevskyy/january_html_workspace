@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <style>
+    body{
+      font-family: "Arial Black", sans-serif;
+      font-size: 20px;
+    }
+    #first li:nth-of-type(2n){
+      color:hotpink;
+    }
+    #second li:nth-of-type(odd){
+      color: blue;
+      font-size: 22px;
+    }
+    #third li:nth-of-type(2n+4):after{
+content: '!';
+    }
+    #chotyry li:last-child{
+      color:purple;
+    }
+    #fifth li::first-letter{
+      font-size: 30px;
+      color:red;
+    }
+  </style>
+</head>
+<body>
+<!--Оформи наступний текст у вигляді списку, та помісти його у div-->
+<!--Зроби копію блоку 5 разів, кожному блоку задай різний class/id-->
+
+<!--"-->
+<!--General lists:-->
+<!--List of 18th-century British children's literature titles-->
+<!--List of 19th-century British children's literature titles-->
+<!--List of American children's books-->
+<!--List of Australian crime-related books and media-->
+<!--List of anonymously published works-->
+<!--List of autobiographies-->
+<!--Lists of banned books-->
+<!--List of books written by children or teenagers-->
+<!--List of book titles taken from literature-->
+<!--List of books by year of publication-->
+<!--List of children's books made into feature films-->
+<!--List of Christian novels-->
+<!--"-->
+
+<!--Під час стилізації використовуй ">" (дочірній селектор)-->
+
+<!--Завдання 1. Для першого блоку: задай кожному парному елементу списку рожевий колір-->
+<!--Завдання 2. Для другого блоку: задай кожному не парному елементу списку розмір 22px-->
+<!--Завдання 3. Для третього блоку: задай кожному 2-му елементу, починаючи з 4-го елемента -  псевдоелемент :after та додай "!" до кожного з зазначених пунктів-->
+<!--Завдання 4. Для четвертого блоку: Задай фіолетовий колір для останнього елемента списку-->
+<!--Завдання 5.Для п'ятого блоку: Задай розмір 30px для перших літер списка, а також зміни колір на червоний-->
+<!--Завдання 6. Додай довільний фавікон-->
+<img src="android-chrome-512x512.png" alt="">
+
+<h5>General lists:</h5>
+<ul class="list" id="first">
+<li>List of 18th-century British children's literature titles</li>
+<li>List of 19th-century British children's literature titles</li>
+<li>List of American children's books</li>
+<li>List of Australian crime-related books and media</li>
+<li>List of anonymously published works</li>
+<li>List of autobiographies</li>
+<li>Lists of banned books</li>
+<li>List of books written by children or teenagers</li>
+<li>List of book titles taken from literature</li>
+<li>List of books by year of publication</li>
+<li>List of children's books made into feature films</li>
+<li>List of Christian novels</li>
+</ul>
+<h5>General lists:</h5>
+<ul class="list" id="second">
+  <li>List of 18th-century British children's literature titles</li>
+  <li>List of 19th-century British children's literature titles</li>
+  <li>List of American children's books</li>
+  <li>List of Australian crime-related books and media</li>
+  <li>List of anonymously published works</li>
+  <li>List of autobiographies</li>
+  <li>Lists of banned books</li>
+  <li>List of books written by children or teenagers</li>
+  <li>List of book titles taken from literature</li>
+  <li>List of books by year of publication</li>
+  <li>List of children's books made into feature films</li>
+  <li>List of Christian novels</li>
+</ul>
+<h5>General lists:</h5>
+<ul class="list" id="third">
+  <li>List of 18th-century British children's literature titles</li>
+  <li>List of 19th-century British children's literature titles</li>
+  <li>List of American children's books</li>
+  <li>List of Australian crime-related books and media</li>
+  <li>List of anonymously published works</li>
+  <li>List of autobiographies</li>
+  <li>Lists of banned books</li>
+  <li>List of books written by children or teenagers</li>
+  <li>List of book titles taken from literature</li>
+  <li>List of books by year of publication</li>
+  <li>List of children's books made into feature films</li>
+  <li>List of Christian novels</li>
+</ul>
+<h5>General lists:</h5>
+<ul class="list" id="chotyry">
+  <li>List of 18th-century British children's literature titles</li>
+  <li>List of 19th-century British children's literature titles</li>
+  <li>List of American children's books</li>
+  <li>List of Australian crime-related books and media</li>
+  <li>List of anonymously published works</li>
+  <li>List of autobiographies</li>
+  <li>Lists of banned books</li>
+  <li>List of books written by children or teenagers</li>
+  <li>List of book titles taken from literature</li>
+  <li>List of books by year of publication</li>
+  <li>List of children's books made into feature films</li>
+  <li>List of Christian novels</li>
+</ul>
+<h5>General lists:</h5>
+<ul class="list" id="fifth">
+  <li>List of 18th-century British children's literature titles</li>
+  <li>List of 19th-century British children's literature titles</li>
+  <li>List of American children's books</li>
+  <li>List of Australian crime-related books and media</li>
+  <li>List of anonymously published works</li>
+  <li>List of autobiographies</li>
+  <li>Lists of banned books</li>
+  <li>List of books written by children or teenagers</li>
+  <li>List of book titles taken from literature</li>
+  <li>List of books by year of publication</li>
+  <li>List of children's books made into feature films</li>
+  <li>List of Christian novels</li>
+</ul>
+
+
+</body>
+</html>
